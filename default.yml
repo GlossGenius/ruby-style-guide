@@ -2,16 +2,21 @@ require: rubocop-rspec
 
 AllCops:
   Exclude:
-    - 'db/schema.rb'
-
-Metrics/LineLength:
-  Max: 120
-
-Style/Documentation:
-  Enabled: false
+    - 'db/**/*'
+    - 'vendor/**/*'
 
 Metrics/BlockLength:
   ExcludedMethods: ['namespace', 'describe', 'context']
 
+Metrics/LineLength:
+  Max: 120
+
 Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - 'bin/*'
