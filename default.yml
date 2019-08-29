@@ -1,0 +1,19 @@
+inherit_gem:
+  rubocop-airbnb:
+    - .rubocop.yml
+
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  ExcludedMethods: ['namespace', 'describe', 'context']
+
+Layout/IndentFirstArrayElement:
+  EnforcedStyle: consistent
