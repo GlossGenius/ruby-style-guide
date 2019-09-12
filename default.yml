@@ -15,7 +15,7 @@ Metrics/LineLength:
 Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Rspec/NestedGroup:
+RSpec/NestedGroups:
   Max: 5
 
 Style/ClassAndModuleChildren:
