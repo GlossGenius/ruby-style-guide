@@ -16,7 +16,7 @@ Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
 Rspec/NestedGroup:
-  MaxNesting: 5
+  Max: 5
 
 Style/ClassAndModuleChildren:
   Enabled: false
