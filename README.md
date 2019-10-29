@@ -3,6 +3,9 @@
 Ruby Style Guide for GlossGenius team.
 
 [![Gem](https://img.shields.io/gem/v/glossgenius_style?color=g&style=flat-square)](https://rubygems.org/gems/glossgenius_style)
+![GitHub](https://img.shields.io/github/license/glossgenius/ruby-style-guide)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/glossgenius/ruby-style-guide?style=flat-square)
+
 
 ## Installation
 
