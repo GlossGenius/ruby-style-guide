@@ -2,6 +2,8 @@
 
 Ruby Style Guide for GlossGenius team.
 
+[![Gem](https://img.shields.io/gem/v/glossgenius_style?color=g&style=flat-square)](https://rubygems.org/gems/glossgenius_style)
+
 ## Installation
 
 Add this line to your application's Gemfile:
