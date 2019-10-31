@@ -29,7 +29,7 @@ jobs:
           chmod 0600 $HOME/.gem/credentials
           # default registry key
           printf -- \
-          "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" \
+          "---\n:rubygems_api_key: ${RUBYGEMS_TOKEN}\n" \
           >> $HOME/.gem/credentials
         env:
           RUBYGEMS_TOKEN: ${{secrets.RUBYGEMS_AUTH_TOKEN}}
