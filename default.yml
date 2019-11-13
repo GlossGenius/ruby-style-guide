@@ -29,3 +29,6 @@ Style/Documentation:
 Style/MixinUsage:
   Exclude:
     - 'bin/*'
+
+Style/AndOr:
+  EnforcedStyle: conditionals
