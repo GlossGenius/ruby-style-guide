@@ -7,8 +7,8 @@ require 'glossgenius_style/version'
 Gem::Specification.new do |spec|
   spec.name          = 'glossgenius_style'
   spec.version       = GlossgeniusStyle::VERSION
-  spec.authors       = ['GlossGenius']
-  spec.email         = ['support@glossgenius.com']
+  spec.author        = 'GlossGenius'
+  spec.email         = 'support@glossgenius.com'
 
   spec.summary       = 'Ruby Style Guide for GlossGenius engineering team'
   spec.homepage      = 'https://github.com/GlossGenius/ruby-style-guide'
