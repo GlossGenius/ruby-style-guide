@@ -26,6 +26,9 @@ Style/ClassAndModuleChildren:
 Style/Documentation:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
 Style/MixinUsage:
   Exclude:
     - 'bin/*'
