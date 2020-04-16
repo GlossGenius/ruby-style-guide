@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    glossgenius_style (0.1.11)
+    glossgenius_style (0.1.12)
       rubocop (~> 0.82.0)
       rubocop-rspec (~> 1.38.1)
 
