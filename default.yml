@@ -6,19 +6,31 @@ AllCops:
     - 'db/**/*'
     - 'vendor/**/*'
 
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 120
+
+Lint/RaiseException:
+  Enabled: false
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
 Metrics/BlockLength:
   ExcludedMethods: ['namespace', 'describe', 'context']
   Exclude:
     - 'config/**/*'
 
-Metrics/LineLength:
-  Max: 120
-
-Layout/FirstArrayElementIndentation:
-  EnforcedStyle: consistent
-
 RSpec/NestedGroups:
   Max: 5
+
+Style/AndOr:
+  EnforcedStyle: conditionals
 
 Style/ClassAndModuleChildren:
   Enabled: false
@@ -26,12 +38,21 @@ Style/ClassAndModuleChildren:
 Style/Documentation:
   Enabled: false
 
+Style/ExponentialNotation:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   EnforcedStyle: always
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
+  Enabled: false
 
 Style/MixinUsage:
   Exclude:
     - 'bin/*'
-
-Style/AndOr:
-  EnforcedStyle: conditionals
