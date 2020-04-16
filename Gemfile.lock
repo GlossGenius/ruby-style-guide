@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     glossgenius_style (0.1.11)
-      rubocop (~> 0.81.0)
+      rubocop (~> 0.82.0)
       rubocop-rspec (~> 1.38.1)
 
 GEM
@@ -30,7 +30,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.0)
-    rubocop (0.81.0)
+    rubocop (0.82.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
